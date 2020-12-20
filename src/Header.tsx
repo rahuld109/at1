@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Anchor, Drawer, Button } from 'antd';
 import { MenuOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
-import './Header.css';
+import './Header.scss';
 
 const { Link } = Anchor;
 

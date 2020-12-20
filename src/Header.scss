@@ -1,3 +1,6 @@
+@use "base";
+$selection-color: #1890ff;
+
 .container-fluid {
   height: 70px;
   padding: 0 30px;
@@ -18,40 +21,51 @@
   padding: 15px 0;
 }
 
-.header .logo {
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: 550;
-  letter-spacing: 5px;
-  padding-left: 10px;
+.header {
+  .logo {
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 5px;
+    padding-left: 10px;
+  }
 }
 
-.header .logo a {
-  color: #333;
+.header {
+  .logo {
+    a {
+      color: #333;
+    }
+  }
 }
 
-.header .ant-anchor-wrapper {
-  background: none;
+.header {
+  .ant-anchor-wrapper {
+    background: none;
+  }
 }
 
-.header .ant-anchor {
-  display: flex;
+.header {
+  .ant-anchor {
+    display: flex;
+  }
 }
 
 .header .ant-anchor-ink {
   display: none;
 }
 
-.header .ant-anchor-link {
-  padding: 0 20px;
-  line-height: 1.4;
-  position: relative;
+.header {
+  .ant-anchor-link {
+    padding: 0 20px;
+    line-height: 1.4;
+    position: relative;
+  }
 }
 
 .header .ant-anchor-link:before,
 .header .ant-anchor-link:after {
   content: "";
-  background: #1890ff;
+  background: $selection-color;
   width: 1px;
   position: absolute;
   top: 2px;
@@ -99,7 +113,7 @@
 .header .ant-menu li.ant-menu-item:before,
 .header .ant-menu li.ant-menu-item:after {
   content: "";
-  background: #1890ff;
+  background: $selection-color;
   width: 1px;
   position: absolute;
   top: 2px;
@@ -121,7 +135,7 @@
 
 .header .ant-menu li.ant-menu-item-selected,
 .header .ant-menu li.ant-menu-item:hover {
-  color: #1890ff;
+  color: $selection-color;
   background: none;
 }
 
@@ -138,9 +152,10 @@
 }
 
 .header .ant-btn-primary {
-  color: #ffffff;
+  color: base.$primary-color;
   background: #393e46;
   border-color: #393e46;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
 }
 
 .mobileVisible {

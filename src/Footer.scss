@@ -1,0 +1,84 @@
+@use 'base';
+$button-color: #393e46;
+
+.footer {
+  border-top: base.$border-props;
+  background-color: base.$primary-color;
+
+  .footer__description {
+    padding: 6rem 4rem;
+    border-bottom: base.$border-props;
+    font-family: base.$font-stack;
+  }
+}
+
+.footer__description {
+  .ant-row {
+    justify-content: space-between;
+  }
+}
+
+h4.ant-typography {
+  font-weight: 600;
+  margin: 0;
+}
+
+.ant-row,
+.ant-row:after,
+.ant-row:before {
+  display: flex;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background: $button-color;
+  border-color: $button-color;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.footer-btn {
+  height: 50px;
+  padding: 11px 4rem;
+  font-size: 16px;
+  border-radius: 0.7rem;
+}
+
+.footer__links {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer__links {
+  .footer__list {
+    margin-right: 4rem;
+    list-style: none;
+  }
+  li {
+    display: list-item;
+    text-align: left;
+    margin-top: 0.5rem;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+  }
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  .logo {
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 5px;
+  }
+}
+
+.footer__content {
+  padding: 6rem 4rem;
+  border-bottom: base.$border-props;
+  font-family: base.$font-stack;
+}
