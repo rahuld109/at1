@@ -1,0 +1,59 @@
+@use 'base';
+$button-color: #393e46;
+
+.staff__section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 6rem;
+  box-shadow: 0 0 12px -4px rgba(0, 0, 0, 0.5);
+}
+
+.ant-row {
+  display: flex;
+}
+
+.ant-row.staff__card {
+  display: flex;
+  padding: 1.4rem;
+  border: base.$border-props;
+  border-radius: 7px;
+}
+
+.ant-col.staff__detail {
+  max-width: 500px;
+  padding: 0.6rem;
+}
+
+.ant-image-img {
+  max-height: 400px;
+  max-width: 500px;
+  border-radius: 7px;
+  padding: 0.6rem;
+}
+
+.ant-typography.bold-text {
+  font-weight: 700;
+}
+
+.ant-typography.grey-text {
+  color: #ccc;
+  font-weight: bold;
+}
+
+.ant-typography.staff__pick {
+  padding: 5px 0 14px 0;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background: $button-color;
+  border-color: $button-color;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.staff-btn {
+  height: 40px;
+  padding: 8px 2.5rem;
+  font-size: 14px;
+  border-radius: 0.7rem;
+}

@@ -11,6 +11,11 @@ body {
   font-family: "B612", sans-serif;
 }
 
+body.body__section{
+  max-width: 1500px;
+  background-color: white;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
