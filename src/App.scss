@@ -6,4 +6,21 @@
     margin-right: auto;
     box-shadow: 0 0 12px -4px rgba(0, 0, 0, 0.5);
   }
+  .div__cards {
+    display: flex;
+    margin: 0 10px;
+    overflow: hidden;
+  }
+  .card:not(:last-child) {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .card:last-child {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+}
+
+.ant-typography.featured__section {
+  padding: 5px 2rem 0 2rem;
 }

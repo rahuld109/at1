@@ -1,0 +1,18 @@
+.card__container {
+  display: flex;
+  padding: 0 0 5rem;
+}
+
+.card__row {
+  max-width: 300px;
+}
+
+.ant-image-img {
+  min-width: 300px;
+}
+.card__detail {
+  margin-left: 10px;
+  .ant-typography {
+    margin: 0;
+  }
+}
