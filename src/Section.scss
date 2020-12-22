@@ -1,0 +1,13 @@
+@use 'base';
+
+.section__container {
+  padding: 5rem;
+  .ant-typography.section__title {
+    font-family: base.$font-stack;
+    font-size: 20px;
+  }
+  .ant-typography.section__description {
+    font-size: 13px;
+    margin: 0;
+  }
+}

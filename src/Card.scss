@@ -8,7 +8,10 @@
 }
 
 .ant-image-img {
+  max-height: 400px;
   min-width: 300px;
+  padding: 0.6rem;
+  border-radius: 0.9rem;
 }
 .card__detail {
   margin-left: 10px;

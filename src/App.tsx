@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Staff from './Staff';
 import Card from './Card';
+import Section from './Section';
 import './App.scss';
 
 const { Title } = Typography;
@@ -12,6 +13,10 @@ const App = (): ReactElement => (
   <div className="app">
     <Header />
     <div className="div__body">
+      <Section
+        title="Live classes from home"
+        description="Watch live online classes from peers & experts across various topics"
+      />
       <Title className="featured__section" level={4}>Featured Live Sessions</Title>
       <div className="div__cards">
         <div className="card">

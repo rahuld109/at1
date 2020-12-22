@@ -12,7 +12,7 @@ const Staff: React.FC = () => (
     <Title className="staff__pick" level={4}>Staff pick for you</Title>
     <Row className="staff__card">
       <Col>
-        <Image src="https://beta.gura.io/static/media/staff-pick.51a5e00c.png" alt="staff_image" />
+        <Image className="staff__image" src="https://beta.gura.io/static/media/staff-pick.51a5e00c.png" alt="staff_image" />
       </Col>
       <Col className="staff__detail">
         <Title className="bold-text" level={4}>Using Jira to Manage your Sprints across your Product teams </Title>
