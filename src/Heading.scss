@@ -1,0 +1,74 @@
+.heading__container {
+  background-image: url(https://img.techpowerup.org/201114/petplate-2-1778x800-1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 40vw;
+  max-height: 500px;
+  padding-left: 80px;
+  padding-top: 95px;
+  padding-bottom: 140px;
+}
+
+.heading__card {
+  background-color: #fff;
+  padding: 1.7rem;
+  border-radius: 7px;
+  max-width: 300px;
+  max-height: 300px;
+  box-shadow: 0 0 12px -4px rgba(0, 0, 0, 0.5);
+}
+
+.heading__content {
+  .ant-typography {
+    margin-bottom: 8px;
+  }
+}
+
+.heading-btn {
+  height: 40px;
+  padding: 8px 2.5rem;
+  font-size: 14px;
+  border-radius: 0.6rem;
+}
+
+.ant-typography.heading__title {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.ant-typography.heading__description {
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 1rem;
+}
+
+.heading__mobileVisible {
+  display: none;
+}
+
+.heading__mobileHidden {
+  display: block;
+}
+
+@media only screen and (max-width: 900px) {
+  .heading__mobileVisible {
+    display: block;
+    
+  }
+  .heading__card {
+      background-color: #fff;
+      padding: 1.7rem;
+      border-radius: 7px;
+      max-width: max-content !important;
+      max-height: max-content !important;
+      box-shadow: none;
+    }
+
+  .heading__mobileHidden {
+    display: none;
+  }
+}

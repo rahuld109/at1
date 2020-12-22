@@ -25,10 +25,11 @@ $button-color: #393e46;
 
 .ant-image-img.staff__image {
   max-height: 400px;
-  max-width: 500px;
   min-width: auto !important;
   padding: 0.6rem;
   border-radius: 0.9rem;
+  object-fit: cover;
+  width: 100%;
 }
 
 .ant-typography.bold-text {

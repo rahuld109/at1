@@ -21,10 +21,12 @@ const Card: React.FC<CardProps> = ({
     <div className="card__row">
       <Image className="card__image" src={image} alt="staff_image" />
       <div className="card__detail">
-        <Title className="bold-text" level={4}>{title}</Title>
+        <Title className="card__title bold-text" level={5}>{title}</Title>
         <Paragraph className="instructor">{staff}</Paragraph>
         <Paragraph className="time__left grey-text">{time}</Paragraph>
-        <Paragraph className="price__tag bold-text">{price}</Paragraph>
+        <Paragraph className="price__tag bold-text">
+          {price}
+        </Paragraph>
       </div>
     </div>
   </div>

@@ -6,6 +6,7 @@ import Staff from './Staff';
 import Card from './Card';
 import Section from './Section';
 import Promo from './Promo';
+import Heading from './Heading';
 import './App.scss';
 
 const { Title } = Typography;
@@ -14,6 +15,7 @@ const App = (): ReactElement => (
   <div className="app">
     <Header />
     <div className="div__body">
+      <Heading />
       <Section
         title="Live classes from home"
         description="Watch live online classes from peers & experts across various topics"
@@ -54,6 +56,24 @@ const App = (): ReactElement => (
             staff="Derrick Michaels"
             time="Going live in 3 days, 2 hours"
             price="$35.99"
+          />
+        </div>
+        <div className="card">
+          <Card
+            image="https://beta.gura.io/static/media/Thumbnail-9.1d106c0d.png"
+            title="Going from 1K MAU's to 500K MAU's in 3 months"
+            staff="Stacey Jacobs"
+            time="Going live in 5days, 9hours"
+            price="$74.99"
+          />
+        </div>
+        <div className="card">
+          <Card
+            image="https://beta.gura.io/static/media/Thumbnail-10.556f91b2.png"
+            title="Launching a FashionTech Business"
+            staff="Daisy Gorden"
+            time="Going live in 45mins"
+            price="$23.99"
           />
         </div>
       </div>
@@ -110,6 +130,15 @@ const App = (): ReactElement => (
             staff="Michella Jackson"
             time="Going live in 3 hours, 20 minutes"
             price="$48.00"
+          />
+        </div>
+        <div className="card">
+          <Card
+            image="https://beta.gura.io/static/media/Thumbnail-5.29e8275d.png"
+            title="Building an Empire, From the Founder of StockX"
+            staff="Jesse Grove"
+            time="Going live in 5 hours, 11minutes"
+            price="$75.00"
           />
         </div>
       </div>
