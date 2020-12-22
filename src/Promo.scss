@@ -1,11 +1,16 @@
+.promo__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .promo__row {
   display: flex;
-  width: 300px;
+  width: 320px;
   align-items: flex-start;
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin: 0;
 }
 
 .ant-image-img.promo__image {

@@ -19,7 +19,7 @@ const Card: React.FC<PromoProps> = ({
     <div className="promo__row">
       <Image className="promo__image" src={image} alt="staff_image" />
       <div className="promo__detail">
-        <Title className="promo__title" level={4}>{title}</Title>
+        <Title className="promo__title" level={5}>{title}</Title>
         <Paragraph className="promo__description">{description}</Paragraph>
       </div>
     </div>

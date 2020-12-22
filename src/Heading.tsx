@@ -8,7 +8,7 @@ import './Heading.scss';
 const { Title, Paragraph } = Typography;
 
 const Heading: React.FC = () => (
-  <div className="heading__root">
+  <>
     <div className="heading__container">
       <div className="heading__card heading__mobileHidden">
         <div className="heading__content">
@@ -39,7 +39,7 @@ const Heading: React.FC = () => (
         <Button type="primary" className="heading-btn"><span>Buy now</span></Button>
       </div>
     </div>
-  </div>
+  </>
 );
 
 export default Heading;

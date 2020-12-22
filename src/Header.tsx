@@ -22,7 +22,7 @@ const Header: React.FC = () => {
         </div>
         <div className="mobileHidden">
           <Anchor>
-            <Link href="#dicover" title="Dicover " />
+            <Link href="#dicover" title="Dicover" />
             <Link href="#teach" title="Teach on Gura" />
             <Link href="#signup" title="Sign up" />
             <Link href="#login" title="Log in" />
