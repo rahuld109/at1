@@ -5,6 +5,7 @@ $selection-color: #1890ff;
   height: 70px;
   padding: 0 30px;
   background-color: #ffffff;
+  border-bottom: 1px solid lightgrey;
 }
 
 .ant-layout-header {
@@ -93,7 +94,7 @@ $selection-color: #1890ff;
 }
 
 .header .ant-anchor-link .ant-anchor-link-title {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: normal;
 }

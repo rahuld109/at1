@@ -1,0 +1,23 @@
+.promo__row {
+  display: flex;
+  width: 300px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.ant-image-img.promo__image {
+  display: flex;
+  height: 50px;
+  width: 50px;
+}
+
+.promo__detail {
+  margin-left: 11px;
+  max-width: 250px;
+  .ant-typography.promo__descriptiom {
+    margin: 0;
+  }
+}

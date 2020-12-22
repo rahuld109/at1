@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Staff from './Staff';
 import Card from './Card';
 import Section from './Section';
+import Promo from './Promo';
 import './App.scss';
 
 const { Title } = Typography;
@@ -55,6 +56,23 @@ const App = (): ReactElement => (
             price="$35.99"
           />
         </div>
+      </div>
+      <div className="promo__section">
+        <Promo
+          image="https://beta.gura.io/static/media/star-brust.a5affc17.svg"
+          title="Buy premium classes to learn about topics"
+          description="All pay as you go. No commitments."
+        />
+        <Promo
+          image="https://beta.gura.io/static/media/thunder-in-box.a75f6b7e.svg"
+          title="Learn from industry experts, and peers with more experience"
+          description="Discover the most relevant video sessions for your needs."
+        />
+        <Promo
+          image="https://beta.gura.io/static/media/rocket.55f4d623.svg"
+          title="Supercharge your learning with new insights & connections"
+          description="Classroom & webinar style."
+        />
       </div>
       <Title className="featured__section" level={4}>Today Live Sessions</Title>
       <div className="div__cards">

@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({
 }) => (
   <div className="card__container">
     <div className="card__row">
-      <Image src={image} alt="staff_image" />
+      <Image className="card__image" src={image} alt="staff_image" />
       <div className="card__detail">
         <Title className="bold-text" level={4}>{title}</Title>
         <Paragraph className="instructor">{staff}</Paragraph>
